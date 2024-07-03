@@ -22,6 +22,8 @@ To run this project, you need to have Python installed along with the following 
 - scipy
 - scikit-learn
 
+if you are using Jupyter Notebok environment than you will get these already installed.
+
 ## Code Explanation
 ### Data Exploration and Preparation
 The first step involves exploring the data and preparing it for analysis:
@@ -29,7 +31,6 @@ The first step involves exploring the data and preparing it for analysis:
 Counts the number of ratings, unique movies, and unique users.
 Calculates average ratings per user and per movie.
 Identifies the lowest and highest-rated movies based on average ratings.
-Uses a Bayesian average to handle cases where movies have very few ratings.
 Creating the User-Item Matrix
 We create a sparse matrix representation of the user-item interactions using the csr_matrix from scipy.sparse. This matrix is essential for efficient computation, especially with large datasets.
 
