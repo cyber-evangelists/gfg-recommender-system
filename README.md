@@ -28,11 +28,11 @@ if you are using Jupyter Notebok environment than you will get these already ins
 ### Data Exploration and Preparation
 The first step involves exploring the data and preparing it for analysis:
 
-Counts the number of ratings, unique movies, and unique users.
-Calculates average ratings per user and per movie.
-Identifies the lowest and highest-rated movies based on average ratings.
-Creating the User-Item Matrix
-We create a sparse matrix representation of the user-item interactions using the csr_matrix from scipy.sparse. This matrix is essential for efficient computation, especially with large datasets.
+- Counts the number of ratings, unique movies, and unique users.
+- Calculates average ratings per user and per movie.
+- Identifies the lowest and highest-rated movies based on average ratings.
+- Creating the User-Item Matrix
+- We create a sparse matrix representation of the user-item interactions using the csr_matrix from scipy.sparse. This matrix is essential for efficient computation, especially with large datasets.
 
 ### Finding Similar Movies
 We define a function find_similar_movies that uses the k-nearest neighbors (KNN) algorithm to find movies similar to a given movie. The function returns a list of movie IDs that are similar to the given movie.
